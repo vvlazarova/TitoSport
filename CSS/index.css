@@ -744,6 +744,6 @@ display:none;   }
 }
 @media only screen and (max-width: 800px) {
 .myCarousel{
-  min-height: 400px;
+  min-height: 500px;
 }
 }
