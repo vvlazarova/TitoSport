@@ -170,12 +170,12 @@ input[type="checkbox"]{
 
 @media(max-width:567px) {
   .container-fluid {
-      margin: 10px 10px;
-      width: 94%;
-      padding-top: 20px;
-      padding-bottom: 20px
+    size:100%;
+  }
   }
 
+  
+@media(max-width:567px) {
   .pad {
       padding-top: 20px
   }
@@ -194,7 +194,7 @@ input[type="checkbox"]{
   
 @media screen and (max-width: 780px) {
   .msg-form{
-    padding: 5px;
+    size:100%;
   }
   }
   @media screen and (max-width: 780px) {
@@ -203,3 +203,10 @@ input[type="checkbox"]{
     padding-left: 10px
 }
   }
+  @media screen and (max-width: 780px) {
+  body {
+    background-image: url("smallscreen.jpg");
+    background-repeat: no-repeat;
+    background-size: 1550px 1550px;
+  }
+}
