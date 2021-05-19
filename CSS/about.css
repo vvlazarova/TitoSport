@@ -506,3 +506,10 @@ input[type="checkbox"]{
 {   #blogCarousel {    
 display:none;   }
 }
+
+
+@media only screen and (max-width: 800px){
+.javatext {    
+min-height: 200px;
+   }
+}
