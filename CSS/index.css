@@ -736,9 +736,3 @@ input[type="checkbox"]{
 display:none;   }
 }
 
-@media (pointer: coarse) and (hover: none) {
- 
-  header video {
-    display: none;
-  }
-}
