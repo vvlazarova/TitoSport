@@ -213,12 +213,7 @@ header .overlay {
   z-index: 1;
 }
 
-@media (pointer: coarse) and (hover: none) {
- 
-  header video {
-    display: none;
-  }
-}
+
 /* 2ed section */
 
 
