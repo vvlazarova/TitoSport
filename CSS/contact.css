@@ -169,13 +169,6 @@ input[type="checkbox"]{
 }
 
 @media(max-width:567px) {
-  .container-fluid {
-    size:100%;
-  }
-  }
-
-  
-@media(max-width:567px) {
   .pad {
       padding-top: 20px
   }
@@ -192,11 +185,7 @@ input[type="checkbox"]{
   }
   }
   
-@media screen and (max-width: 780px) {
-  .msg-form{
-    size:100%;
-  }
-  }
+
   @media screen and (max-width: 780px) {
   .pad-icon {
     padding-top: 25px;
@@ -209,4 +198,11 @@ input[type="checkbox"]{
     background-repeat: no-repeat;
     background-size: 1550px 1550px;
   }
+}
+@media screen and (max-width: 780px) {
+.container-fluid {
+  padding-top: 30px;
+  background-color: #07004D;
+  background-size: 1300px 1300px;
+}
 }
