@@ -745,6 +745,6 @@ display:none;   }
 
 @media only screen and (max-width: 800px) {
   .carousel{
-    height: 600px;
+    height: 450px;
   }
   }
