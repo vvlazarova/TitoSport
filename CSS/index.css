@@ -742,8 +742,9 @@ display:none;   }
     display: none;
   }
 }
+
 @media only screen and (max-width: 800px) {
-.carousel slide{
-  min-height: 500px;
-}
-}
+  .myCarousel{
+    min-height: 600px;
+  }
+  }
