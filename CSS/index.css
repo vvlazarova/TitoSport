@@ -187,8 +187,6 @@ hr {
 
 /* button */
 
-
-
 .button {
   display: inline-block;
   background: #17C71A;
@@ -206,6 +204,44 @@ hr {
   transform: translate(0px, -10px) scale(1.2);
 }
 
+/* 1st section video*/
+
+header {
+  position: relative;
+  background: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  z-index: 1;
+}
 
 
 /* 2ed section text and photo gallery*/
@@ -709,6 +745,6 @@ display:none;   }
 
 @media only screen and (max-width: 800px) {
   .carousel{
-    height: 580px;
+    height: 520px;
   }
   }
