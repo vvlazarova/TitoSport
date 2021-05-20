@@ -681,7 +681,7 @@ body {
 /* Footer on small screens */
 @media (max-width: 34em) {
     body {
-      margin-bottom: 500px;
+      margin-bottom: 700px;
     }
     .footer {
       height: 700px;
