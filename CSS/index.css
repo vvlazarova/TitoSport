@@ -678,15 +678,7 @@ body {
   height: 300px;
 }
 
-/* Footer on small screens */
-@media (max-width: 34em) {
-    body {
-      margin-bottom: 700px;
-    }
-    .footer {
-      height: 700px;
-    }
-}
+
 
 /* Footer */
 footer {
@@ -745,6 +737,16 @@ display:none;   }
 
 @media only screen and (max-width: 800px) {
   .carousel{
-    height: 520px;
+    height: 530px;
   }
   }
+
+  /* Footer on small screens */
+@media (max-width: 34em) {
+  body {
+    margin-bottom: 700px;
+  }
+  .footer {
+    height: 700px;
+  }
+}
