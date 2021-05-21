@@ -711,3 +711,11 @@ display:none;   }
       min-height: 400px;
   }
   }
+  @media only screen and (max-width: 800px) {
+    .backround {
+      background: url("b33.jpg");
+      padding: 25px;
+      background-repeat: no-repeat;
+      background-size: 740px 640px;
+    }
+    }
