@@ -502,7 +502,7 @@ section .section-title {
 
 .recovery {
   color: white;
-  font-size: 2.7vmin;;
+
 }
 
 /* 5th section -carousel */
@@ -709,6 +709,6 @@ display:none;   }
   background: url("b33.jpg");
   padding: 25px;
   background-repeat: no-repeat;
-  background-size: 740px 640px;
+  background-size: 740px 740px;
 }
 }
