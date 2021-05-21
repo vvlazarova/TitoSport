@@ -283,6 +283,7 @@ header .overlay {
 }
 
 /*# Carousel Gallery*/
+
 .plugins {
   text-align: center;
 }
@@ -324,13 +325,9 @@ height: 380px;
 }
 
 /* 5th section carousel */
-.checked {
-  color: orange;
-}
 .greenhr {
 	color: #333;
 	text-align: center;
-
 	font-family: 'Ubuntu', sans-serif;
   font-weight: 100;
 	position: relative;
@@ -347,6 +344,12 @@ height: 380px;
 	right: 0;
 	bottom: -10px;
 }
+
+
+.checked {
+  color: orange;
+}
+
 .col-center {
 	margin: 0 auto;
 	float: none !important;
