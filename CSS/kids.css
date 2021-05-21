@@ -704,3 +704,10 @@ display:none;   }
     height: 700px;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .frontside .card,
+  .backside .card {
+      min-height: 400px;
+  }
+  }
