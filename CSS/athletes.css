@@ -40,16 +40,6 @@ font-size: 1.3rem;
 }
 
 
-@media screen and (max-width: 600px) {
-.navbar.responsive {
-  position: relative;
-}
-.navbar.responsive .icon {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-}
 .navbar.responsive a {
 float: none;
 display: block;
@@ -265,12 +255,6 @@ header .overlay {
   z-index: 1;
 }
 
-@media (pointer: coarse) and (hover: none) {
- 
-  header video {
-    display: none;
-  }
-}
 
 
 /* 2ed section Carousel Gallery and text*/
@@ -641,15 +625,6 @@ body {
   height: 300px;
 }
 
-/* Footer on small screens */
-@media (max-width: 34em) {
-    body {
-      margin-bottom: 500px;
-    }
-    .footer {
-      height: 500px;
-    }
-}
 
 /* Footer */
 footer {
@@ -682,16 +657,43 @@ input[type="checkbox"]{
   outline-offset: -2px;
 }
 
+/*Media queries */
+@media screen and (max-width: 600px) {
+  .navbar.responsive {
+    position: relative;
+  }
+.navbar.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+}
+
 @media only screen and (max-width: 800px)
 {   #blogCarousel {    
 display:none;   }
 }
 
-@media only screen and (max-width: 800px){
-  .backround {
-    background: url("b3.jpg");
-    padding: 25px;
-    background-repeat: no-repeat;
-    background-size: 1600px 1000px;
-  
-  } 
+
+@media only screen and (max-width: 800px) {
+.flip-card {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .carousel{
+    height: 530px;
+  }
+  }
+
+  /* Footer on small screens */
+@media (max-width: 34em) {
+  body {
+    margin-bottom: 700px;
+  }
+  .footer {
+    height: 700px;
+  }
+}
+

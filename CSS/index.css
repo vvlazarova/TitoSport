@@ -712,6 +712,8 @@ input[type="checkbox"]{
 }
 
 
+
+/*Media queries */
 @media screen and (max-width: 600px) {
   .navbar.responsive {
     position: relative;
