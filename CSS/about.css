@@ -141,9 +141,7 @@ p {
 
 /*Clasess*/
 
-#line1{
-  font-size: 4.0vw;
-}
+
 
 #line2{
   font-size: 3.0vh;
@@ -554,4 +552,10 @@ header video {
     opacity: 0.3;
     z-index: 1;
   }
+}
+
+@media only screen and (max-width: 600px){
+#line1{
+  font-size: 8.0vw;
+}
 }
