@@ -556,3 +556,9 @@ display:none;   }
     height: 700px;
   }
 }
+
+@media only screen and (max-width: 600px){
+  #line1{
+    font-size: 8.0vw;
+  }
+  }
