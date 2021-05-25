@@ -539,7 +539,8 @@ header video {
     background-image: url("h.jpg");
     padding: 25px;
     background-repeat: no-repeat;
-    background-size: 700px 500px;
+    position: relative;
+    background-size: 700px 600px;
 
   }
   }
