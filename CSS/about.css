@@ -212,8 +212,6 @@ header .overlay {
   opacity: 0.6;
   z-index: 1;
 }
-
-
 /* 2ed section */
 
 
@@ -531,3 +529,17 @@ input[type="checkbox"]{
     height: 700px;
   }
 }
+@media only screen and (max-width: 800px) {
+header video {
+  display: none;
+}
+}
+@media only screen and (max-width: 800px) {
+  header  {
+    background-image: url("h.jpg");
+    padding: 25px;
+    background-repeat: no-repeat;
+    background-size: 800px 500px;
+
+  }
+  }
