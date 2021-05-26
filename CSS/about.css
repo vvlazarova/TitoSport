@@ -541,7 +541,7 @@ header video {
     background-size: 800px 600px;
     }
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 800px) {
   header .overlay {
     position: absolute;
     top: 0;
@@ -554,8 +554,14 @@ header video {
   }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
 #line1{
   font-size: 8.0vw;
+}
+}
+
+@media only screen and (max-width: 800px){
+  .javatext {
+  display: none;
 }
 }
