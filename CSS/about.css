@@ -518,15 +518,7 @@ input[type="checkbox"]{
   }
   }
 
-  /* Footer on small screens */
-@media (max-width: 34em) {
-  body {
-    margin-bottom: 700px;
-  }
-  .footer {
-    height: 700px;
-  }
-}
+
 @media only screen and (max-width: 800px) {
 header video {
   display: none;
@@ -560,3 +552,12 @@ header video {
 }
 }
 
+  /* Footer on small screens */
+  @media (max-width: 34em) {
+    body {
+      margin-bottom: 700px;
+    }
+    .footer {
+      height: 700px;
+    }
+  }
