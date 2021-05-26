@@ -532,7 +532,7 @@ header video {
   display: none;
 }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   header  {
     background-image: url("h.jpg");
     padding: 25px;
@@ -560,8 +560,3 @@ header video {
 }
 }
 
-@media only screen and (max-width: 800px){
-  .javatext {
-  display: none;
-}
-}
