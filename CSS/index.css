@@ -400,20 +400,7 @@ header .overlay {
   
 }
 
-#image h2 {
-  font-family: 'Roboto','Helvetica',sans-serif;
-  color: white;
-  position: absolute;
-  transform-style: preserve-3d;
-  bottom: 2em;
-  left: 0;
-   transform: translateZ(40px);
-  font-weight: 100;
-  font-size: 2em;
-  width: 500px;
-  text-align: center;
-  
-}
+
 
 #foreground {
   transform: translateZ(20px);
