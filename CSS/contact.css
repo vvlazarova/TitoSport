@@ -41,15 +41,6 @@ body {
   font-size: 2.4vmin;;
 }
 
-#line5{
-  font-size: 2.4vmin;;
-}
-#line6{
-  font-size: 2.4vmin;;
-}
-#line7{
-  font-size: 2.4vmin;;
-}
  /* contact form */
  
 .container-fluid {
@@ -95,7 +86,6 @@ box-shadow: 2px 2px 5px rgba(250, 248, 248, 0.4);
 .dropdown-item:hover{
   background: #17C71A;
   border-radius: 50px 20px;
-  size:100%;
 }
 
  /*navbar*/
