@@ -355,7 +355,6 @@ header .overlay {
   bottom: 15px;
   top: 15px;
   opacity: 1;
-  -webkit-animation: bounce-left 1s ease-in forwards;
   animation: bounce-left 1s ease-in forwards;
 }
 .boxing img {
