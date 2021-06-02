@@ -133,40 +133,51 @@
         </div>
         <!--Form --> 
         <div class="col-sm-6 pad">
-          <form name="contact" method="POST" data-netlify="true" class="rounded msg-form"></form>
-
-                <div class="form-group"> <label class="name" required>Your Name</label>
+            <form class="rounded msg-form">
+                <div class="form-group"> <label class="name" >Your Name</label>
                     <div class="input-group border rounded">
                         <div class="input-group-addon px-2 pt-1">
                             <p class="fa fa-user-o text-success"></p>
                         </div> <input type="text" class="form-control border-0">
                     </div>
                 </div>
-                <div class="form-group"> <label class="name" required>Email</label>
+                <div class="form-group"> <label class="name">Email</label>
                     <div class="input-group border rounded">
                         <div class="input-group-addon px-2 pt-1"> <i class="fa fa-envelope text-success"></i> </div> <input type="text" 
                         class="form-control border-0">
                     </div>
                 </div>
-                <div class="form-group"> <label id="msg">Message</label> <textarea name="message" id="msgus" cols="10" rows="5" class="form-control bg-light" placeholder="Message" required></textarea> </div>
+                <div class="form-group"> <label id="msg">Message</label> <textarea name="message" id="msgus" cols="10" rows="5" class="form-control bg-light" placeholder="Message"></textarea> </div>
                 <fieldset class="form-group">
                   <div class="form-group">
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" id="gridCheck">
-                      <label class="form-check-label" for="gridCheck" required>
+                      <label class="form-check-label" for="gridCheck">
                         I agree to the terms & conditions
                       </label>
                       </div>
                       </div>
                       </fieldset>
                 <div class="form-group d-flex justify-content-end"> <input type="submit" class="btn btn-outline-success" value="send message"> </div>
-                </form>
+                
+            </form>
         </div>
     </div>
 </div>
 
 <!--script-->
-      
+
+<?php
+// the message
+$msg = "First line of text\nSecond line of text";
+
+// use wordwrap() if lines are longer than 70 characters
+$msg = wordwrap($msg,70);
+
+// send email
+mail("stoilpanchevsport@gmail.com","My subject",$msg);
+?>
+
 
 
 <!-- Script links -->
@@ -178,5 +189,3 @@
 
     </body>
 </html>
-
-
